@@ -1800,7 +1800,7 @@
           {
             "id": "5c7b25b72fb240c5",
             "type": "tabs",
-            "dimension": 33.333333333333336,
+            "dimension": 50,
             "children": [
               {
                 "id": "afd4a26ebd433206",
@@ -1814,6 +1814,24 @@
                   },
                   "icon": "lucide-list",
                   "title": "Outline"
+                }
+              },
+              {
+                "id": "0c95bdfaf2dff79e",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks"
                 }
               },
               {
@@ -1851,37 +1869,12 @@
                 }
               }
             ],
-            "currentTab": 3
-          },
-          {
-            "id": "04e19805244c7812",
-            "type": "tabs",
-            "dimension": 33.333333333333336,
-            "children": [
-              {
-                "id": "0c95bdfaf2dff79e",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": false
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks"
-                }
-              }
-            ]
+            "currentTab": 4
           },
           {
             "id": "0a72e35d2f7ccabf",
             "type": "tabs",
-            "dimension": 33.333333333333336,
+            "dimension": 50,
             "children": [
               {
                 "id": "1a2df7125a6cd310",
@@ -1914,8 +1907,8 @@
           "table-editor-obsidian:Advanced Tables Toolbar": true
         }
       },
-      "active": "5182fe2a846486ae",
-      "mtime": "2026-01-23T02:04:13+01:00"
+      "active": "bf6464642517b604",
+      "mtime": "2026-01-20T21:58:54+01:00"
     },
     "Simple Layout - 2026 (DE)": {
       "main": {
