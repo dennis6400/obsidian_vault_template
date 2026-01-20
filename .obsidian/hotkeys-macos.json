@@ -1,0 +1,1041 @@
+{
+  "app:go-back": [
+    {
+      "key": "ArrowLeft",
+      "modifiers": [
+        "Alt",
+        "Ctrl"
+      ]
+    }
+  ],
+  "app:go-forward": [
+    {
+      "key": "ArrowRight",
+      "modifiers": [
+        "Alt",
+        "Ctrl"
+      ]
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "R"
+    }
+  ],
+  "bases:change-view": [
+    {
+      "key": "V",
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ]
+    }
+  ],
+  "bases:new-file": [
+    {
+      "key": "B",
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ]
+    }
+  ],
+  "canvas:jump-to-group": [
+    {
+      "key": "J",
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ]
+    }
+  ],
+  "canvas:new-file": [
+    {
+      "key": "C",
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ]
+    }
+  ],
+  "daily-notes": [
+    {
+      "key": "6",
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ]
+    }
+  ],
+  "daily-notes:goto-next": [
+    {
+      "key": "7",
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ]
+    }
+  ],
+  "daily-notes:goto-prev": [
+    {
+      "key": "5",
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ]
+    }
+  ],
+  "editor:insert-wikilink": [
+    {
+      "key": "K",
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ]
+    }
+  ],
+  "editor:open-search-replace": [
+    {
+      "key": "F",
+      "modifiers": [
+        "Mod",
+        "Alt"
+      ]
+    },
+    {
+      "key": "H",
+      "modifiers": [
+        "Ctrl"
+      ]
+    }
+  ],
+  "editor:swap-line-down": [
+    {
+      "key": "ArrowDown",
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ]
+    }
+  ],
+  "editor:swap-line-up": [
+    {
+      "key": "ArrowUp",
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ]
+    }
+  ],
+  "editor:toggle-highlight": [
+    {
+      "key": "H",
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ]
+    }
+  ],
+  "file-explorer:move-file": [
+    {
+      "key": "M",
+      "modifiers": [
+        "Ctrl",
+        "Mod"
+      ]
+    }
+  ],
+  "hotkeysplus-obsidian:toggle-block-quote": [
+    {
+      "key": "Q",
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ]
+    }
+  ],
+  "hotkeysplus-obsidian:toggle-embed": [
+    {
+      "key": "1",
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ]
+    }
+  ],
+  "obsidian-git:pull": [
+    {
+      "key": "F7",
+      "modifiers": [
+        "Shift"
+      ]
+    }
+  ],
+  "obsidian-git:push": [
+    {
+      "key": "F9",
+      "modifiers": [
+        "Shift"
+      ]
+    }
+  ],
+  "obsidian-git:push2": [
+    {
+      "key": "F8",
+      "modifiers": [
+        "Shift"
+      ]
+    }
+  ],
+  "obsidian-git:view-file-on-github": [
+    {
+      "key": ".",
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ]
+    }
+  ],
+  "obsidian-git:view-history-on-github": [
+    {
+      "key": "X",
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ]
+    }
+  ],
+  "obsidian-linter:lint-file": [
+    {
+      "key": "L",
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ]
+    }
+  ],
+  "open-with-default-app:show": [
+    {
+      "key": ".",
+      "modifiers": [
+        "Mod"
+      ]
+    }
+  ],
+  "templater-obsidian:04 - Templates/general/code-blocks/code-block_powershell.md": [
+    {
+      "key": "Y",
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ]
+    }
+  ],
+  "templater-obsidian:04 - Templates/general/code-blocks/code-block_shell.md": [
+    {
+      "key": "X",
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ]
+    }
+  ],
+  "templater-obsidian:04 - Templates/general/footers/footer_basic.md": [
+    {
+      "key": "8",
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ]
+    }
+  ],
+  "templater-obsidian:04 - Templates/general/misc-note/misc.md": [
+    {
+      "key": ",",
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ]
+    }
+  ],
+  "templater-obsidian:04 - Templates/general/misc-note/misc_header.md": [
+    {
+      "key": ";",
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ]
+    }
+  ],
+  "templater-obsidian:04 - Templates/general/misc-note/misc_handwritten.md": [
+    {
+      "key": "-",
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ]
+    }
+  ],
+  "templater-obsidian:04 - Templates/general/misc-note/misc_handwritten_header.md": [
+    {
+      "key": "-",
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ]
+    }
+  ],
+  "templater-obsidian:04 - Templates/general/oneliners/one-liner_example.md": [
+    {
+      "key": "E",
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ]
+    }
+  ],
+  "templater-obsidian:04 - Templates/general/oneliners/one-liner_result.md": [
+    {
+      "key": "R",
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ]
+    }
+  ],
+  "templater-obsidian:04 - Templates/general/oneliners/one-liner_status_evergreen.md": [
+    {
+      "key": "E",
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ]
+    }
+  ],
+  "templater-obsidian:04 - Templates/general/oneliners/one-liner_status_init.md": [
+    {
+      "key": "0",
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ]
+    }
+  ],
+  "templater-obsidian:04 - Templates/general/oneliners/one-liner_status_open.md": [
+    {
+      "key": "O",
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ]
+    }
+  ],
+  "templater-obsidian:04 - Templates/general/oneliners/one-liner_step.md": [
+    {
+      "key": "S",
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ]
+    }
+  ],
+  "templater-obsidian:04 - Templates/general/panels/panel_info.md": [
+    {
+      "key": "I",
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ]
+    }
+  ],
+  "templater-obsidian:04 - Templates/general/panels/panel_warnung.md": [
+    {
+      "key": "A",
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ]
+    }
+  ],
+  "templater-obsidian:04 - Templates/general/symbols/symbol_command.md": [
+    {
+      "key": "Z",
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ]
+    }
+  ],
+  "templater-obsidian:create-new-note-from-template": [
+    {
+      "key": "N",
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ]
+    }
+  ],
+  "templater-obsidian:insert-templater": [
+    {
+      "key": "E",
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ]
+    }
+  ],
+  "templater-obsidian:jump-to-next-cursor-location": [
+    {
+      "key": "Tab",
+      "modifiers": [
+        "Alt"
+      ]
+    }
+  ],
+  "window:reset-zoom": [
+    {
+      "key": "0",
+      "modifiers": [
+        "Mod"
+      ]
+    }
+  ],
+  "window:zoom-in": [
+    {
+      "key": "=",
+      "modifiers": [
+        "Mod"
+      ]
+    }
+  ],
+  "window:zoom-out": [
+    {
+      "key": "-",
+      "modifiers": [
+        "Mod"
+      ]
+    }
+  ],
+  "workspace:close-others-tab-group": [
+    {
+      "key": "W",
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ]
+    }
+  ],
+  "workspace:next-tab": [
+    {
+      "key": "Tab",
+      "modifiers": [
+        "Ctrl"
+      ]
+    },
+    {
+      "key": "ArrowRight",
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ]
+    }
+  ],
+  "workspace:previous-tab": [
+    {
+      "key": "Tab",
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ]
+    },
+    {
+      "key": "ArrowLeft",
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ]
+    }
+  ],
+  "workspace:split-horizontal": [
+    {
+      "key": "2",
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ]
+    }
+  ],
+  "workspace:split-vertical": [
+    {
+      "key": "1",
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ]
+    }
+  ],
+  "workspace:toggle-pin": [
+    {
+      "key": "P",
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ]
+    }
+  ],
+  "workspace:toggle-stacked-tabs": [
+    {
+      "key": "T",
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ]
+    }
+  ],
+  "note-refactor-obsidian:app:extract-selection-content-only": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "8"
+    }
+  ],
+  "note-refactor-obsidian:app:extract-selection-first-line": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "9"
+    }
+  ],
+  "editor:insert-tag": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "'"
+    }
+  ],
+  "file-recovery:open": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "0"
+    }
+  ],
+  "hotkeysplus-obsidian:duplicate-lines-down": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "2"
+    }
+  ],
+  "hotkeysplus-obsidian:duplicate-lines-up": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "3"
+    }
+  ],
+  "hotkeysplus-obsidian:clear-current-line": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "4"
+    }
+  ],
+  "templater-obsidian:04 - Templates/general/oneliners/one-liner_code.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "U"
+    }
+  ],
+  "bookmarks:bookmark-current-view": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "B"
+    }
+  ],
+  "bookmarks:bookmark-current-search": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "X"
+    }
+  ],
+  "bookmarks:bookmark-current-heading": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "Y"
+    }
+  ],
+  "bookmarks:open": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "B"
+    }
+  ],
+  "editor:insert-table": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "T"
+    }
+  ],
+  "table-editor-obsidian:delete-row": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "Backspace"
+    }
+  ],
+  "table-editor-obsidian:delete-column": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Backspace"
+    }
+  ],
+  "table-editor-obsidian:move-row-down": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "J"
+    }
+  ],
+  "table-editor-obsidian:move-row-up": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "U"
+    }
+  ],
+  "table-editor-obsidian:move-column-right": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "K"
+    }
+  ],
+  "table-editor-obsidian:move-column-left": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "H"
+    }
+  ],
+  "table-editor-obsidian:insert-row": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "V"
+    }
+  ],
+  "table-editor-obsidian:insert-column": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "C"
+    }
+  ],
+  "table-editor-obsidian:next-row": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
+    }
+  ],
+  "table-editor-obsidian:next-cell": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "D"
+    }
+  ],
+  "table-editor-obsidian:previous-cell": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "A"
+    }
+  ],
+  "hotkey-helper:open-hotkeys": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "6"
+    }
+  ],
+  "bookmarks:unbookmark-current-view": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "Backspace"
+    }
+  ],
+  "review-obsidian:future-review": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "7"
+    },
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "R"
+    }
+  ],
+  "periodic-notes:open-weekly-note": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "6"
+    }
+  ],
+  "periodic-notes:next-weekly-note": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "7"
+    }
+  ],
+  "periodic-notes:prev-weekly-note": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "5"
+    }
+  ],
+  "periodic-notes:open-monthly-note": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "3"
+    }
+  ],
+  "periodic-notes:prev-monthly-note": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "4"
+    }
+  ],
+  "periodic-notes:next-monthly-note": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "2"
+    }
+  ],
+  "periodic-notes:prev-quarterly-note": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "8"
+    }
+  ],
+  "periodic-notes:open-quarterly-note": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "9"
+    }
+  ],
+  "periodic-notes:next-quarterly-note": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "0"
+    }
+  ],
+  "review-obsidian:future-review-heading": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "H"
+    }
+  ],
+  "review-obsidian:future-review-block": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ],
+  "file-explorer:open": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "F"
+    }
+  ],
+  "workspace:copy-url": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "U"
+    }
+  ],
+  "obsidian-day-planner:show-weekly-view": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ],
+  "editing-toolbar:underline": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "U"
+    }
+  ],
+  "editing-toolbar:codeblock": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "C"
+    }
+  ],
+  "editor:toggle-comments": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "K"
+    }
+  ],
+  "obsidian-admonition:insert-admonition": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "A"
+    }
+  ],
+  "obsidian-admonition:insert-callout": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "Y"
+    }
+  ],
+  "backlink:open": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "I"
+    }
+  ],
+  "backlink:open-backlinks": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "I"
+    }
+  ],
+  "outgoing-links:open": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "O"
+    }
+  ],
+  "outgoing-links:open-for-current": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "O"
+    }
+  ],
+  "outline:open": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "["
+    }
+  ],
+  "outline:open-for-current": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "["
+    }
+  ],
+  "graph:open-local": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "G"
+    }
+  ],
+  "editor:toggle-code": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "\\"
+    }
+  ],
+  "obsidian-auto-link-title:enhance-url-with-title": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "U"
+    }
+  ]
+}

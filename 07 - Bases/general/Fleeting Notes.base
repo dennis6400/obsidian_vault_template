@@ -1,0 +1,29 @@
+filters:
+  and:
+    - and:
+        - '!file.inFolder("01 - Primary Categories")'
+        - '!file.inFolder("02 - Secondary Categories")'
+        - '!file.inFolder("04 - Templates")'
+    - file.hasTag("fleeting")
+views:
+  - type: table
+    name: All Fleeting Notes
+    order:
+      - file.name
+      - aliases
+      - status
+    sort:
+      - property: tags
+        direction: DESC
+      - property: type
+        direction: DESC
+      - property: aliases
+        direction: ASC
+      - property: status
+        direction: ASC
+      - property: last modified date
+        direction: ASC
+    columnSize:
+      file.name: 274
+      note.aliases: 134
+      note.tags: 242

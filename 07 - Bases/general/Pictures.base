@@ -1,0 +1,107 @@
+filters:
+  and:
+    - and:
+        - '!file.inFolder("01 - Primary Categories")'
+        - '!file.inFolder("02 - Secondary Categories")'
+        - '!file.inFolder("04 - Templates")'
+    - file.ext != "md"
+    - file.ext != "base"
+views:
+  - type: table
+    name: Pasted Pictures
+    filters:
+      or:
+        - file.fullname.startsWith("Pasted image")
+        - file.fullname.startsWith("Greenshot")
+        - file.fullname.startsWith("image")
+    order:
+      - file.name
+      - file.folder
+    sort:
+      - property: file.name
+        direction: DESC
+      - property: file.folder
+        direction: ASC
+      - property: tags
+        direction: DESC
+      - property: type
+        direction: DESC
+      - property: aliases
+        direction: ASC
+      - property: status
+        direction: ASC
+      - property: last modified date
+        direction: ASC
+    columnSize:
+      file.name: 274
+      note.aliases: 134
+      note.tags: 242
+  - type: table
+    name: All Pictures
+    order:
+      - file.name
+      - file.folder
+    sort:
+      - property: file.folder
+        direction: DESC
+      - property: tags
+        direction: DESC
+      - property: type
+        direction: DESC
+      - property: aliases
+        direction: ASC
+      - property: status
+        direction: ASC
+      - property: last modified date
+        direction: ASC
+    columnSize:
+      file.name: 465
+  - type: table
+    name: Incorrect Location
+    filters:
+      and:
+        - file.folder != "03 - Content/files"
+        - file.folder != "05 - Personal/files"
+    order:
+      - file.name
+      - file.folder
+    sort:
+      - property: file.name
+        direction: DESC
+      - property: file.folder
+        direction: ASC
+      - property: tags
+        direction: DESC
+      - property: type
+        direction: DESC
+      - property: aliases
+        direction: ASC
+      - property: status
+        direction: ASC
+      - property: last modified date
+        direction: ASC
+    columnSize:
+      file.name: 333
+  - type: table
+    name: Non-PNG Pictures
+    filters:
+      and:
+        - file.ext != "png"
+    order:
+      - file.name
+      - file.folder
+    sort:
+      - property: file.folder
+        direction: DESC
+      - property: tags
+        direction: DESC
+      - property: type
+        direction: DESC
+      - property: aliases
+        direction: ASC
+      - property: status
+        direction: ASC
+      - property: last modified date
+        direction: ASC
+    columnSize:
+      file.name: 486

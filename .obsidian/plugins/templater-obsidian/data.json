@@ -1,0 +1,55 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "04 - Templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "",
+      "template": ""
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    "04 - Templates/general/oneliners/one-liner_example.md",
+    "04 - Templates/general/oneliners/one-liner_result.md",
+    "04 - Templates/general/panels/panel_info.md",
+    "04 - Templates/general/panels/panel_warnung.md",
+    "04 - Templates/general/code-blocks/code-block_powershell.md",
+    "04 - Templates/general/code-blocks/code-block_shell.md",
+    "04 - Templates/general/oneliners/one-liner_step.md",
+    "04 - Templates/general/oneliners/one-liner_solution.md",
+    "04 - Templates/general/oneliners/one-liner_status_init.md",
+    "04 - Templates/general/oneliners/one-liner_status_open.md",
+    "04 - Templates/general/oneliners/one-liner_status_evergreen.md",
+    "04 - Templates/general/symbols/symbol_command.md",
+    "04 - Templates/general/misc-note/misc.md",
+    "04 - Templates/general/misc-note/misc_header.md",
+    "04 - Templates/general/footers/footer_basic.md",
+    "04 - Templates/general/misc-note/misc_handwritten.md",
+    "04 - Templates/general/misc-note/misc_handwritten_header.md"
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "intellisense_render": 1,
+  "enable_ribbon_icon": true
+}

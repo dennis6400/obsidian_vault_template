@@ -1,0 +1,112 @@
+filters:
+  and:
+    - and:
+        - '!file.inFolder("01 - Primary Categories")'
+        - '!file.inFolder("02 - Secondary Categories")'
+        - '!file.inFolder("04 - Templates")'
+views:
+  - type: table
+    name: All Quarterly Notes
+    filters:
+      and:
+        - file.hasTag("quarterly-note")
+    order:
+      - file.name
+      - aliases
+      - status
+      - file.folder
+    sort:
+      - property: tags
+        direction: DESC
+      - property: type
+        direction: DESC
+      - property: aliases
+        direction: ASC
+      - property: status
+        direction: ASC
+      - property: last modified date
+        direction: ASC
+    columnSize:
+      file.name: 274
+      note.aliases: 134
+      note.status: 94
+  - type: table
+    name: Incorrect Location
+    filters:
+      and:
+        - '!file.inFolder("06 - Periodic Notes/Quarterly Notes")'
+        - file.hasTag("quarterly-note")
+    order:
+      - file.name
+      - aliases
+      - status
+      - file.folder
+    sort:
+      - property: tags
+        direction: DESC
+      - property: type
+        direction: DESC
+      - property: aliases
+        direction: ASC
+      - property: status
+        direction: ASC
+      - property: last modified date
+        direction: ASC
+    columnSize:
+      file.name: 274
+      note.aliases: 134
+      note.tags: 242
+  - type: table
+    name: Open Quarterly Notes
+    filters:
+      and:
+        - status != "evergreen"
+        - file.hasTag("quarterly-note")
+    order:
+      - file.name
+      - aliases
+      - status
+      - file.folder
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: tags
+        direction: DESC
+      - property: type
+        direction: DESC
+      - property: aliases
+        direction: ASC
+      - property: status
+        direction: ASC
+      - property: last modified date
+        direction: ASC
+    columnSize:
+      file.name: 274
+      note.aliases: 134
+      note.tags: 242
+  - type: table
+    name: Incorrect or Missing Tag
+    filters:
+      and:
+        - '!file.hasTag("quarterly-note")'
+        - file.folder == "06 - Periodic Notes/Quarterly Notes"
+    order:
+      - file.name
+      - aliases
+      - status
+      - file.folder
+    sort:
+      - property: tags
+        direction: DESC
+      - property: type
+        direction: DESC
+      - property: aliases
+        direction: ASC
+      - property: status
+        direction: ASC
+      - property: last modified date
+        direction: ASC
+    columnSize:
+      file.name: 274
+      note.aliases: 134
+      note.status: 94
