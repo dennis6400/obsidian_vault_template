@@ -36,6 +36,24 @@ TODO
 | ---- | ---- | --- | ----- |
 | n/a  | n/a  | n/a | -     | 
 
+**Time/System:**
+
+| Nr. / No. | Besprechungspunkte / Discussion items | Lösung/Entscheidung / Solution/Decision | 
+| --------- | ------------------------------------- | --------------------------------------- |
+|           |                                       |                                         |
+|           |                                       |                                         |
+|           |                                       |                                         |
+|           |                                       |                                         |
+
+## Notizen
+
+n/a
+
+## Aufgaben
+
+n/a
+- [ ] TODO
+
 ### Besprechungspunkt 1  / Discussion item 1
 
 TODO

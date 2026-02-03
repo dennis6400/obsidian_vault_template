@@ -2,7 +2,7 @@
 creation date:
 last modified date:
 aliases: []
-tags: misc
+tags: meeting
 status: todo
 ---
 
