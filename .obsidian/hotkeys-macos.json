@@ -11,7 +11,7 @@
       "modifiers": [
         "Mod"
       ],
-      "key": "`"
+      "key": ";"
     }
   ],
   "app:go-forward": [
@@ -1021,6 +1021,24 @@
         "Shift"
       ],
       "key": "U"
+    }
+  ],
+  "quickadd:runQuickAdd": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "`"
+    }
+  ],
+  "quickadd:choice:eb74f610-b654-46c1-adc2-645129469bec": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "L"
     }
   ]
 }
