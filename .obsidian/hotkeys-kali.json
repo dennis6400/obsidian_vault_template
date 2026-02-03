@@ -19,6 +19,7 @@
     {
       "modifiers": [
         "Alt",
+        "Mod",
         "Shift"
       ],
       "key": "L"
@@ -28,6 +29,7 @@
     {
       "modifiers": [
         "Alt",
+        "Mod",
         "Shift"
       ],
       "key": "R"
@@ -46,8 +48,8 @@
     {
       "key": "B",
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Alt",
+        "Mod"
       ]
     }
   ],
@@ -64,8 +66,8 @@
     {
       "key": "C",
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Alt",
+        "Mod"
       ]
     }
   ],
@@ -196,24 +198,6 @@
       ]
     }
   ],
-  "obsidian-git:view-file-on-github": [
-    {
-      "key": ".",
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ]
-    }
-  ],
-  "obsidian-git:view-history-on-github": [
-    {
-      "key": "X",
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ]
-    }
-  ],
   "obsidian-linter:lint-file": [
     {
       "key": "L",
@@ -231,7 +215,7 @@
       ]
     }
   ],
-  "templater-obsidian:04 - Templates/general/code-blocks/code-block_powershell.md": [
+  "templater-obsidian:04 - Templates/basic/code-blocks/code-block_powershell.md": [
     {
       "key": "Y",
       "modifiers": [
@@ -240,7 +224,7 @@
       ]
     }
   ],
-  "templater-obsidian:04 - Templates/general/code-blocks/code-block_shell.md": [
+  "templater-obsidian:04 - Templates/basic/code-blocks/code-block_shell.md": [
     {
       "key": "X",
       "modifiers": [
@@ -249,7 +233,7 @@
       ]
     }
   ],
-  "templater-obsidian:04 - Templates/general/footers/footer_basic.md": [
+  "templater-obsidian:04 - Templates/basic/footers/footer_basic.md": [
     {
       "key": "8",
       "modifiers": [
@@ -258,7 +242,7 @@
       ]
     }
   ],
-  "templater-obsidian:04 - Templates/general/misc-note/misc.md": [
+  "templater-obsidian:04 - Templates/basic/default-notes/misc.md": [
     {
       "key": ",",
       "modifiers": [
@@ -267,7 +251,7 @@
       ]
     }
   ],
-    "templater-obsidian:04 - Templates/general/misc-note/misc_header.md": [
+    "templater-obsidian:04 - Templates/basic/default-headers/misc_header.md": [
     {
       "key": ";",
       "modifiers": [
@@ -276,7 +260,7 @@
       ]
     }
   ],
-  "templater-obsidian:04 - Templates/general/misc-note/misc_handwritten.md": [
+  "templater-obsidian:04 - Templates/basic/misc-note/misc_handwritten.md": [
     {
       "key": "-",
       "modifiers": [
@@ -285,7 +269,7 @@
       ]
     }
   ],
-  "templater-obsidian:04 - Templates/general/misc-note/misc_handwritten_header.md": [
+  "templater-obsidian:04 - Templates/basic/misc-note/misc_handwritten_header.md": [
     {
       "key": "-",
       "modifiers": [
@@ -295,7 +279,7 @@
       ]
     }
   ],
-  "templater-obsidian:04 - Templates/general/oneliners/one-liner_example.md": [
+  "templater-obsidian:04 - Templates/basic/oneliners/oneliner_example.md": [
     {
       "key": "E",
       "modifiers": [
@@ -305,16 +289,16 @@
       ]
     }
   ],
-  "templater-obsidian:04 - Templates/general/oneliners/one-liner_result.md": [
+  "templater-obsidian:04 - Templates/basic/oneliners/oneliner_result.md": [
     {
       "key": "R",
       "modifiers": [
-        "Alt",
-        "Mod"
+        "Mod",
+        "Shift"
       ]
     }
   ],
-  "templater-obsidian:04 - Templates/general/oneliners/one-liner_status_evergreen.md": [
+  "templater-obsidian:04 - Templates/basic/status/status_evergreen.md": [
     {
       "key": "E",
       "modifiers": [
@@ -323,16 +307,7 @@
       ]
     }
   ],
-  "templater-obsidian:04 - Templates/general/oneliners/one-liner_status_init.md": [
-    {
-      "key": "O",
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ]
-    }
-  ],
-  "templater-obsidian:04 - Templates/general/oneliners/one-liner_status_open.md": [
+  "templater-obsidian:04 - Templates/basic/status/status_init.md": [
     {
       "key": "O",
       "modifiers": [
@@ -341,34 +316,43 @@
       ]
     }
   ],
-  "templater-obsidian:04 - Templates/general/oneliners/one-liner_step.md": [
+  "templater-obsidian:04 - Templates/basic/status/status_open.md": [
+    {
+      "key": "O",
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ]
+    }
+  ],
+  "templater-obsidian:04 - Templates/basic/oneliners/oneliner_step.md": [
     {
       "key": "S",
       "modifiers": [
-        "Alt",
-        "Mod"
+        "Mod",
+        "Shift"
       ]
     }
   ],
-  "templater-obsidian:04 - Templates/general/panels/panel_info.md": [
+  "templater-obsidian:04 - Templates/basic/panels/panel_info.md": [
     {
       "key": "I",
       "modifiers": [
-        "Alt",
-        "Mod"
+        "Mod",
+        "Shift"
       ]
     }
   ],
-  "templater-obsidian:04 - Templates/general/panels/panel_warnung.md": [
+  "templater-obsidian:04 - Templates/basic/panels/panel_warnung.md": [
     {
       "key": "A",
       "modifiers": [
-        "Alt",
-        "Mod"
+        "Mod",
+        "Shift"
       ]
     }
   ],
-  "templater-obsidian:04 - Templates/general/symbols/symbol_command.md": [
+  "templater-obsidian:04 - Templates/basic/symbols/symbol_command.md": [
     {
       "key": "Z",
       "modifiers": [
@@ -512,15 +496,6 @@
         "Shift"
       ],
       "key": "9"
-    }
-  ],
-  "editor:insert-tag": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "'"
     }
   ],
   "file-recovery:open": [
@@ -754,8 +729,8 @@
     },
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Alt",
+        "Mod"
       ],
       "key": "R"
     }
@@ -908,8 +883,8 @@
   "editing-toolbar:codeblock": [
     {
       "modifiers": [
-        "Alt",
-        "Mod"
+        "Mod",
+        "Shift"
       ],
       "key": "C"
     }
@@ -935,8 +910,8 @@
   "obsidian-admonition:insert-callout": [
     {
       "modifiers": [
-        "Alt",
-        "Mod"
+        "Mod",
+        "Shift"
       ],
       "key": "Y"
     }
