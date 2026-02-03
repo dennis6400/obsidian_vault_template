@@ -1,5 +1,83 @@
 {
-  "choices": [],
+  "choices": [
+    {
+      "id": "eb74f610-b654-46c1-adc2-645129469bec",
+      "name": "Capture - Log in Daily Note",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "06 - Periodic Notes/Daily Notes/{{DATE:YYYY-MM-DD}}",
+      "captureToActiveFile": false,
+      "activeFileWritePosition": "cursor",
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": true,
+        "template": "04 - Templates/basic/periodic-notes/daily-note.md"
+      },
+      "format": {
+        "enabled": true,
+        "format": "- {{DATE:HH:mm:ss}} {{VALUE}}"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## Log",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top",
+        "inline": false,
+        "replaceExisting": false,
+        "blankLineAfterMatchMode": "auto"
+      },
+      "newLineCapture": {
+        "enabled": false,
+        "direction": "below"
+      },
+      "prepend": false,
+      "task": false,
+      "openFile": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "templater": {
+        "afterCapture": "none"
+      }
+    },
+    {
+      "id": "ae08bc39-ec97-461b-85d5-b047761f18ef",
+      "name": "Template - Add New Default Meeting",
+      "type": "Template",
+      "command": true,
+      "templatePath": "04 - Templates/meetings/meeting_basic.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{DATE:YYYY-MM-DD}} {{VALUE}} "
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "03 - Content",
+          "01 - Primary Categories"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFile": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    }
+  ],
   "inputPrompt": "single-line",
   "persistInputPromptDrafts": true,
   "useSelectionAsCaptureValue": true,
