@@ -43,6 +43,11 @@
       "text": "#work",
       "darkModeColor": "#282828",
       "color": "#4c4c4c"
+    },
+    {
+      "text": "#important",
+      "darkModeColor": "#c30404",
+      "color": "#ffa1a1"
     }
   ],
   "releaseNotes": true,
