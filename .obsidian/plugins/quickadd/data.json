@@ -47,6 +47,52 @@
       }
     },
     {
+      "id": "6a287c5e-84a6-48b7-a2cd-92cc9cb77383",
+      "name": "Capture - Add New Task in Daily Note",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "06 - Periodic Notes/Daily Notes/{{DATE:YYYY-MM-DD}}",
+      "captureToActiveFile": false,
+      "activeFileWritePosition": "cursor",
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": true,
+        "template": "04 - Templates/basic/periodic-notes/daily-note.md"
+      },
+      "format": {
+        "enabled": false,
+        "format": ""
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## Day Planner",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top",
+        "inline": false,
+        "replaceExisting": false,
+        "blankLineAfterMatchMode": "auto"
+      },
+      "newLineCapture": {
+        "enabled": false,
+        "direction": "below"
+      },
+      "prepend": false,
+      "task": true,
+      "openFile": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "templater": {
+        "afterCapture": "none"
+      }
+    },
+    {
       "id": "ae08bc39-ec97-461b-85d5-b047761f18ef",
       "name": "Template - Add New Default Meeting",
       "type": "Template",

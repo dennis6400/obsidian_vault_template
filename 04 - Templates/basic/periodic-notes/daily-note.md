@@ -2,7 +2,7 @@
 creation date:
 last modified date:
 aliases: []
-tags: daily-note
+tags: [daily-note]
 status: todo
 ---
 
@@ -10,3 +10,5 @@ status: todo
 
 ## Log
 
+
+## Day Planner
