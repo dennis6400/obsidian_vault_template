@@ -11,4 +11,4 @@ status: todo
 ## Log
 
 
-## Day Planner
+## Misc
