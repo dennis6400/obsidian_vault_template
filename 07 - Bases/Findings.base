@@ -1,0 +1,94 @@
+filters:
+  and:
+    - file.tags.contains("finding")
+    - '!file.inFolder("04 - Templates")'
+views:
+  - type: table
+    name: 01 - Open Findings
+    filters:
+      and:
+        - status != "evergreen"
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - severity
+      - status
+      - reported
+    sort:
+      - property: reporting
+        direction: DESC
+      - property: file.folder
+        direction: DESC
+      - property: affected assets
+        direction: DESC
+    columnSize:
+      file.name: 211
+      note.status: 82
+  - type: table
+    name: 02 - Non-Reported Findings
+    filters:
+      and:
+        - reported == false
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - severity
+      - status
+      - reported
+    sort:
+      - property: file.name
+        direction: DESC
+      - property: file.folder
+        direction: DESC
+      - property: affected assets
+        direction: DESC
+    columnSize:
+      file.name: 211
+      file.folder: 263
+      note.reporting: 115
+  - type: table
+    name: All Findings
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - severity
+      - status
+      - reported
+    sort:
+      - property: file.folder
+        direction: DESC
+      - property: affected assets
+        direction: DESC
+    columnSize:
+      file.name: 211
+      note.reported: 88
+  - type: table
+    name: Archive - Reported Findings
+    filters:
+      and:
+        - reported == true
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - severity
+      - status
+      - reported
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: file.folder
+        direction: DESC
+      - property: affected assets
+        direction: DESC
+    columnSize:
+      file.name: 211
+      file.folder: 263
+      note.reporting: 115

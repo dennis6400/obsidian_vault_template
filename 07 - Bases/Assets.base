@@ -1,0 +1,46 @@
+filters:
+  and:
+    - file.tags.contains("asset")
+    - '!file.inFolder("04 - Templates")'
+views:
+  - type: table
+    name: Scope
+    filters:
+      and:
+        - note["in scope"] == true
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - status
+      - in scope
+    sort:
+      - property: reporting
+        direction: DESC
+      - property: file.folder
+        direction: DESC
+      - property: affected assets
+        direction: DESC
+    columnSize:
+      file.name: 211
+      note.status: 88
+  - type: table
+    name: All Assets
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - status
+      - in scope
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: file.folder
+        direction: DESC
+      - property: affected assets
+        direction: DESC
+    columnSize:
+      file.name: 211
+      note.reported: 88

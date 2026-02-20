@@ -1,0 +1,51 @@
+filters:
+  and:
+    - file.tags.contains("account")
+    - '!file.inFolder("04 - Templates")'
+views:
+  - type: table
+    name: Provided Accounts
+    filters:
+      and:
+        - note["self created"] != true
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - status
+      - role
+      - account works
+      - check date
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: file.folder
+        direction: DESC
+      - property: affected assets
+        direction: DESC
+    columnSize:
+      file.name: 211
+      note.reported: 88
+  - type: table
+    name: Created Accounts
+    filters:
+      and:
+        - note["self created"] == true
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - status
+      - role
+    sort:
+      - property: file.name
+        direction: DESC
+      - property: file.folder
+        direction: DESC
+      - property: affected assets
+        direction: DESC
+    columnSize:
+      file.name: 211
+      note.reported: 88
