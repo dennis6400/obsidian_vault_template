@@ -1,0 +1,51 @@
+{
+  "collapse-filter": false,
+  "search": "-path:\"04 - Templates\"",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "file: \"000 - Global Index (Start Here!)\"",
+      "color": {
+        "a": 1,
+        "rgb": 16742400
+      }
+    },
+    {
+      "query": "path:\"01 - Primary Categories\"",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:\"02 - Secondary Categories\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 2067956
+      }
+    },
+    {
+      "query": "[\"status\":\"evergreen\"]",
+      "color": {
+        "a": 1,
+        "rgb": 1366804
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.4562606258515413,
+  "close": false
+}
