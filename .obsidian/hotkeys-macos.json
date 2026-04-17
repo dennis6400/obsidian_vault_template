@@ -158,6 +158,7 @@
     {
       "key": "H",
       "modifiers": [
+        "Ctrl",
         "Alt",
         "Mod"
       ]
@@ -1049,5 +1050,6 @@
       ],
       "key": "9"
     }
-  ]
+  ],
+  "markdown:add-metadata-property": []
 }
