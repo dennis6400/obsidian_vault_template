@@ -6,6 +6,61 @@ filters:
         - '!file.inFolder("04 - Templates")'
 views:
   - type: table
+    name: Open Weekly Notes
+    filters:
+      and:
+        - status != "evergreen"
+        - file.hasTag("weekly-note")
+    order:
+      - file.name
+      - aliases
+      - status
+      - file.folder
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: tags
+        direction: DESC
+      - property: type
+        direction: DESC
+      - property: aliases
+        direction: ASC
+      - property: status
+        direction: ASC
+      - property: last modified date
+        direction: ASC
+    columnSize:
+      file.name: 274
+      note.aliases: 134
+      note.tags: 242
+  - type: table
+    name: Incorrect or Missing Tag
+    filters:
+      and:
+        - '!file.hasTag("weekly-note")'
+        - file.folder == "06 - Periodic Notes/Weekly Notes"
+    order:
+      - file.name
+      - aliases
+      - status
+      - file.tags
+      - file.folder
+    sort:
+      - property: tags
+        direction: DESC
+      - property: type
+        direction: DESC
+      - property: aliases
+        direction: ASC
+      - property: status
+        direction: ASC
+      - property: last modified date
+        direction: ASC
+    columnSize:
+      file.name: 274
+      note.aliases: 134
+      note.status: 94
+  - type: table
     name: All Weekly Notes
     filters:
       and:
@@ -59,10 +114,10 @@ views:
       note.aliases: 134
       note.tags: 242
   - type: table
-    name: Open Weekly Notes
+    name: Evergreen Weekly Notes
     filters:
       and:
-        - status != "evergreen"
+        - status == "evergreen"
         - file.hasTag("weekly-note")
     order:
       - file.name
@@ -86,29 +141,3 @@ views:
       file.name: 274
       note.aliases: 134
       note.tags: 242
-  - type: table
-    name: Incorrect or Missing Tag
-    filters:
-      and:
-        - '!file.hasTag("weekly-note")'
-        - file.folder == "06 - Periodic Notes/Weekly Notes"
-    order:
-      - file.name
-      - aliases
-      - status
-      - file.folder
-    sort:
-      - property: tags
-        direction: DESC
-      - property: type
-        direction: DESC
-      - property: aliases
-        direction: ASC
-      - property: status
-        direction: ASC
-      - property: last modified date
-        direction: ASC
-    columnSize:
-      file.name: 274
-      note.aliases: 134
-      note.status: 94

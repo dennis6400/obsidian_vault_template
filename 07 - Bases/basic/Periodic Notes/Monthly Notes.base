@@ -6,6 +6,62 @@ filters:
         - '!file.inFolder("04 - Templates")'
 views:
   - type: table
+    name: Open Monthly Notes
+    filters:
+      and:
+        - status != "evergreen"
+        - file.hasTag("monthly-note")
+    order:
+      - file.name
+      - aliases
+      - status
+      - file.folder
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: tags
+        direction: DESC
+      - property: type
+        direction: DESC
+      - property: aliases
+        direction: ASC
+      - property: status
+        direction: ASC
+      - property: last modified date
+        direction: ASC
+    columnSize:
+      file.name: 274
+      note.aliases: 134
+      note.tags: 242
+  - type: table
+    name: Evergreen Monthly Notes
+    filters:
+      and:
+        - status == "evergreen"
+        - file.hasTag("monthly-note")
+    order:
+      - file.name
+      - aliases
+      - status
+      - file.folder
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: tags
+        direction: DESC
+      - property: type
+        direction: DESC
+      - property: aliases
+        direction: ASC
+      - property: status
+        direction: ASC
+      - property: last modified date
+        direction: ASC
+    columnSize:
+      file.name: 274
+      note.aliases: 134
+      note.tags: 242
+  - type: table
     name: All Monthly Notes
     filters:
       and:
@@ -59,34 +115,6 @@ views:
       note.aliases: 134
       note.tags: 242
   - type: table
-    name: Open Monthly Notes
-    filters:
-      and:
-        - status != "evergreen"
-        - file.hasTag("monthly-note")
-    order:
-      - file.name
-      - aliases
-      - status
-      - file.folder
-    sort:
-      - property: file.name
-        direction: ASC
-      - property: tags
-        direction: DESC
-      - property: type
-        direction: DESC
-      - property: aliases
-        direction: ASC
-      - property: status
-        direction: ASC
-      - property: last modified date
-        direction: ASC
-    columnSize:
-      file.name: 274
-      note.aliases: 134
-      note.tags: 242
-  - type: table
     name: Incorrect or Missing Tag
     filters:
       and:
@@ -96,6 +124,7 @@ views:
       - file.name
       - aliases
       - status
+      - file.tags
       - file.folder
     sort:
       - property: tags
