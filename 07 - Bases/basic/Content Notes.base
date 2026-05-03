@@ -8,6 +8,7 @@ filters:
         - file.name != "All Tasks"
         - '!file.inFolder("06 - Periodic Notes")'
         - file.name != "000 - Global Index (Start Here!)"
+        - '!file.tags.contains("fleeting")'
     - and:
         - '!file.inFolder("03 - Content/files")'
         - '!file.inFolder("05 - Personal/files")'

@@ -2,6 +2,11 @@
   "items": [
     {
       "type": "file",
+      "ctime": 1777806571295,
+      "path": "000 - Global Index (Start Here!).md"
+    },
+    {
+      "type": "file",
       "ctime": 1773477383956,
       "path": "07 - Bases/basic/Periodic Notes/Daily Notes.base",
       "title": "Daily Notes"
@@ -11,6 +16,18 @@
       "ctime": 1773477388538,
       "path": "07 - Bases/basic/Periodic Notes/Weekly Notes.base",
       "title": "Weekly Notes"
+    },
+    {
+      "type": "file",
+      "ctime": 1777806582887,
+      "path": "07 - Bases/basic/Content Notes.base",
+      "title": "Content Notes"
+    },
+    {
+      "type": "file",
+      "ctime": 1777806579577,
+      "path": "07 - Bases/basic/Fleeting Notes.base",
+      "title": "Fleeting Notes"
     }
   ]
 }
