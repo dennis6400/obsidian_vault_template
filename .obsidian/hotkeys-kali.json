@@ -44,27 +44,9 @@
       ]
     }
   ],
-    "bases:new-file": [
-    {
-      "key": "B",
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ]
-    }
-  ],
   "canvas:jump-to-group": [
     {
       "key": "J",
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ]
-    }
-  ],
-  "canvas:new-file": [
-    {
-      "key": "C",
       "modifiers": [
         "Alt",
         "Mod"
@@ -883,8 +865,8 @@
   "editing-toolbar:codeblock": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Alt",
+        "Mod"
       ],
       "key": "C"
     }
@@ -1007,6 +989,13 @@
         "Mod"
       ],
       "key": "`"
+    },
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "."
     }
   ],
   "quickadd:choice:eb74f610-b654-46c1-adc2-645129469bec": [
@@ -1027,5 +1016,14 @@
       "key": "9"
     }
   ],
-  "markdown:add-metadata-property": []
+  "markdown:add-metadata-property": [],
+  "quickadd:choice:ae08bc39-ec97-461b-85d5-b047761f18ef": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "0"
+    }
+  ]
 }

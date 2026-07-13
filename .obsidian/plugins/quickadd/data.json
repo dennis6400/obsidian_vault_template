@@ -104,16 +104,13 @@
       },
       "folder": {
         "enabled": true,
-        "folders": [
-          "03 - Content",
-          "01 - Primary Categories"
-        ],
+        "folders": [],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
         "chooseFromSubfolders": false
       },
       "appendLink": false,
-      "openFile": false,
+      "openFile": true,
       "fileOpening": {
         "location": "tab",
         "direction": "vertical",

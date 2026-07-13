@@ -4,6 +4,9 @@ last modified date:
 aliases: []
 tags: meeting
 status: todo
+date: "[[<% tp.date.now("YYYY-MM-DD") %>]]"
+client:
+project: 
 ---
 
 Primary Categories:

@@ -1,9 +1,12 @@
 ---
-creation date:
-last modified date:
+creation date: 2026-02-04 18:46:28
+last modified date: 2026-07-13 21:31:31
 aliases: []
-tags: meeting
+tags: [meeting]
 status: todo
+date: "[[<% tp.date.now("YYYY-MM-DD") %>]]"
+client:
+project: 
 ---
 
 Primary Categories:
@@ -14,15 +17,11 @@ Links:
 
 # [[<% tp.file.title %>]]
 
-## Datum / Date
-
-TODO
-
-## Teilnehmer / Attendees
+## Teilnehmer / Attendee(s)
 
 - TODO
 
-## Ziel(e) / Goal(s)
+## Ziel(e) / Objective(s)
 
 TODO 
 

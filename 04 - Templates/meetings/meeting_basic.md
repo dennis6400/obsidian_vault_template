@@ -2,8 +2,11 @@
 creation date:
 last modified date:
 aliases: []
-tags: meeting
+tags: [meeting]
 status: todo
+date: "[[<% tp.date.now("YYYY-MM-DD") %>]]"
+client:
+project: 
 ---
 
 Primary Categories:
@@ -14,19 +17,15 @@ Links:
 
 # [[<% tp.file.title %>]]
 
-## Datum / Date
-
-TODO
-
-## Teilnehmer / Attendees
+## Attendee(s)
 
 - TODO
 
-## Notizen / Notes
+## Notes
 
 TODO
 
-## Aufgaben / Action items
+## Action Items
 
 -  [ ] TODO 
 
