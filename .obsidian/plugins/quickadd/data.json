@@ -100,7 +100,7 @@
       "templatePath": "04 - Templates/meetings/meeting_basic.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "{{DATE:YYYY-MM-DD}} {{VALUE}} "
+        "format": "{{DATE:YYYY-MM-DD}} {{VALUE}}"
       },
       "folder": {
         "enabled": true,
